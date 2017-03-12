@@ -16,6 +16,8 @@ In my opinion, however, it is safer to escape the extended P8SCII characters tha
 
 ### Editor Specifics
 
+The comments here will, hopefully, tell you how to use the fonts in most editors, regardless of whether or not it is listed here.
+
 #### Sublime Text
 
 Here are some useful preferences to set in "Setting - Syntax Specific" for your *.p8 files:
