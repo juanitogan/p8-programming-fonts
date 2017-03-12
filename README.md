@@ -49,34 +49,34 @@ You don't want to use Windows' Notepad because it doesn't support the Unix line 
 _(Preview images coming...... maybe.)_
 
 ### PICO-8 ROM
-I really didn't want to take the time creating this set -- because I don't see the point in punishing yourself with it -- I did enough of that with bad fonts ***and*** displays way back somewhere in the last century -- but I knew I would be pestered for it if I didn't create it, so here it is in all its "dune" glory (you might be able to figure out what that means if you find this 4x6 font to be worse than all other 4x6 fonts).  I even created these as multi-font FON files (same font in multiple bitmap resolutions) so that your editor should let you zoom in pretty big before Windows decides you're totally insane and replaces it with a default vector font.
+I really didn't want to take the time creating this set -- because I don't see the point in punishing yourself with it -- I did enough of that with bad fonts ***and*** displays way back somewhere in the last century -- but I knew I would be pestered for it if I didn't create it, so here it is in all its "dune" glory (you might be able to figure out what that means if you find this 4x6 font to be worse than all other 4x6 fonts like I do).  I even created these as multi-font FON files (same font in multiple bitmap resolutions) so that your editor should let you zoom in pretty big before Windows decides you're totally insane and replaces it with a default vector font.
 * [**PICO-8 ROM OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-oem.fon)
-* [**PICO-8 ROM OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-oem-mono.fon)
 * [**PICO-8 ROM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom.fon)
+* [**PICO-8 ROM Mono OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-mono-oem.fon)
 * [**PICO-8 ROM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-mono.fon)
 
 ### PICO-8 Tektite
 This is the first font I worked on... because, well, it was there when poking around various tools.  I call this one a semi-sane choice for programming.  It is a very VGA-ish 9x16 (plus I added an extra line of "external leading" because it looks better with more line space, but few editors pay attention to that attribute--_HxD_ being the only one I tested that does--so you may want to tell your editor to space it more).  If you like it, you can get the matching set of non-P8 versions (that I also modified a bit from the original Tektite font) by visiting their home here: https://github.com/juanitogan/mkwinfont
 * [**PICO-8 Tektite OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-oem.fon)
-* [**PICO-8 Tektite OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-oem-mono.fon)
 * [**PICO-8 Tektite**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite.fon)
+* [**PICO-8 Tektite OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-mono-oem.fon)
 * [**PICO-8 Tektite Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-mono.fon)
 * Matching fonts:
-  * [**Tektite OEM**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9eom.fon) (CP 437)
+  * [**Tektite OEM**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9oem.fon) (CP 437)
   * [**Tektite**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9.fon) (Windows 1252, ISO-8859-1, "Font has XWindows encoding" option in PuTTY)
 
 ### PICO-8 MSTester
 This one is a formerly-sane choice for programming.  It is a squished VGA-ish of 8x12.  This is a sample font that was included with some Microsoft sample code for building a FNT editor, ages ago.  Thus, it sounds like public domain to me even though it looks suspiciuosly like an old version of **Fixedsys**.  I did descend the brackets a bit -- the curly brackets were hardly recognizable.  Otherwise, unchanged in the 7-bit region.
 * [**PICO-8 MSTester OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester-oem.fon)
-* [**PICO-8 MSTester OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester-oem-mono.fon)
 * [**PICO-8 MSTester**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester.fon)
+* [**PICO-8 MSTester OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester-mono-oem.fon)
 * [**PICO-8 MSTester Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester-mono.fon)
 
 ### PICO-8 Raize
 This one is a fairly-sane choice for programming.  It comes in many sizes so I chose the fairly large 11x22 regular for some variety here (maybe I should include the 11x22 bold as well... but I'm bored with this P8 font stuff already and anxious to get back to game building).  I looked at ProFont, Proggy, Terminus, and a few others, and decided I liked Raize the best even though I'm not a huge fan of some of the squarish characters and dislike the high placement of `+` and `-`.  So, now you have to live with it or make your own mod or your favorite.  I'm not entirely sure it is licensed for modding like most of the others I looked at are -- it is copyrighted by Raize Software and given out as free software with no license details.
 * [**PICO-8 Raize OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-raize-oem.fon)
-* [**PICO-8 Raize OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-raize-oem-mono.fon)
 * [**PICO-8 Raize**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-raize.fon)
+* [**PICO-8 Raize OEM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-raize-mono-oem.fon)
 * [**PICO-8 Raize Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-raize-mono.fon)
 * Matching fonts:
   * [Raize Software](http://www.raize.com/DevTools/Tools/RzFont.asp) - Three sizes in regular and bold, plus Unix/Linux versions
