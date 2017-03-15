@@ -1,15 +1,16 @@
 # PICO-8 Programming Fonts
 
-Herein lies a collection of fonts I've modified for PICO-8 programming.  Why?  I can't say, really, other than it was a small challenge I was tempted to solve.  I can't say I use them... but for those who want them, here they are.
+Herein lies a collection of fonts I've modified for PICO-8 programming.  Why?  I can't say, really, other than it was a small curiosity I was tempted to solve.  I can't say I use them... but for those who want them, here they are.
 
 ![Screenshot of Sublime Text, Notepad++, and PICO-8](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/screenshot-st3-npp-p8.png)
+<br>_Screenshot of Sublime Text, Notepad++, and PICO-8, all displaying the same p8 file._
 
 ### Encoding
 
 It came up elsewhere what the p8 encoding might be.  It is clearly a custom form of Extended ASCII... or, as I think of it, `P8SCII` (first! :grin:).  But that's just my opinion.  Ask the author what he calls it, if anything.  Regardless, it's an 8-bit character set right now and -- judging by where the current extended characters sit (on top of Windows 125x, ISO 8859-x, and Unicode control characters) -- forever.
 
 ![P8SCII Character Set and P8SCII mapped to Windows 1252](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-charmap.png)
-<br/>P8SCII mapped to Windows 1252 and ISO 8859-1, etc.
+<br>_P8SCII mapped to Windows 1252 (also the same mapping as ISO 8859-1, etc)._
 
 If working on P8 code in an external editor, open and save with a DOS encoding if you can, such as Code Page 437.  This works well in Sublime Text (as "DOS (CP 437)") and in Notepad++ (as either "ANSI" or "Western European -> OEM-US") and probably most others.
 
@@ -17,7 +18,7 @@ Saving as Windows 1252 can _appear_ to preserve the embedded extended characters
 
 In my opinion, however, it is safer to escape the extended P8SCII characters than embed them:
 
-♥ = `\135` or `\x87` (or `‡` in a PICO-8 OEM font)
+♥ = `\135` or `\x87`
 
 ### Editor Specifics
 
