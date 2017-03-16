@@ -53,7 +53,7 @@ You don't want to use Windows' Notepad because it doesn't support the Unix line 
 
 # The Fonts
 
-Thus far, only Windows FON bitmap fonts are available here.  I could convert them to Unix/Linux types but I am not set up for testing those conversions so I'll wait for others to do that work, if anyone chooses to, and include them via pull request.  Creating patch files for various vector fonts is also a possibility (such as for Consolas, what I currently use) but I have no plans to engage in such things at the moment (patches, not mods, due to licensing).
+Thus far, only Windows FON bitmap fonts are available here.  I could convert them to Unix/Linux types but I am not set up for testing those conversions so I'll wait for others to do that work, if anyone chooses to, and include them via pull request.  Creating patch files for various vector fonts is also a possibility (such as for Consolas, what I currently use) but I have no plans to engage in such things at the moment (patches--not mods--due to licensing).
 
 ### PICO-8 ROM
 ![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-oem.png)
