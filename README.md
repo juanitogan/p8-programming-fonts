@@ -66,7 +66,7 @@ I really didn't want to take the time creating this set -- because I don't see t
   * [**PICO-8 ROM Mono OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-mono-oem.fon)
   * [**PICO-8 ROM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-mono.fon)
 * TrueType fonts:
-  * [PICO-8 forum discussion: PICO-8.ttf + variants](http://www.lexaloffle.com/bbs/?pid=37670#p37670)
+  * [PICO-8 forum discussion: PICO-8.ttf + variants](http://www.lexaloffle.com/bbs/?tid=3760)
     * Hopefully, these will be updated soon to the Windows 1252/ISO 8859-1 mapping (so that I don't feel tempted to build my own).  The OEM mapping may not be possible with TTF or OTF except, maybe, as a symbol font.
 
 ### PICO-8 Tektite
