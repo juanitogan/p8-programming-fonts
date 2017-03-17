@@ -27,7 +27,7 @@ The comments here will, hopefully, tell you how to use the fonts in most editors
 ### Sublime Text
 
 Here are some useful preferences to set in "Settings - Syntax Specific" for your \*.p8 files:
-```
+```python
 "font_face": "PICO-8 Raize",
 "fallback_encoding": "DOS (CP 437)",
 "default_encoding": "DOS (CP 437)",
@@ -39,11 +39,11 @@ Sublime won't load OEM fonts (which may be just as well since some editors don't
 > Sublime has an odd limitation when working with bitmap FON fonts that a few of you may run into.  That is, if you change the text zoom in Windows to, say, 150% (if you're on a high-DPI display and losing your youth vision like me), Sublime will not let you zoom all the way out with many FON fonts.  The furthest I can zoom out in Sublime with my current Windows display settings is 2x the actual bitmap size for all FON files I have here thus far (I believe the Windows settings are part of the cause--not sure yet).  The really bizarre thing is that Sublime will let you zoom all the way out on all but the smallest font in a FON file [if the file has more than one font in it].  Thus, the workaround might be to put a tiny font in all files (such as the 4x6 ROM font) but I don't care to go down that hacky road, so good luck getting Sublime to care enough to fix this.
 
 If working with TrueType or OpenType fonts in Windows with Sublime, the secret to turning off antialiasing is to set GDI mode as well:
-```
+```python
 "font_options": [ "gdi", "no_antialias" ]
 ```
 
-Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files.  [See this wiki for details on this](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
+Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files to hide the non-code parts of the file.  [See this wiki for details on this](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
 
 ### Notepad++
 
