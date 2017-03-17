@@ -20,13 +20,13 @@ In my opinion, however, it is safer to escape the extended P8SCII characters tha
 
 ♥ = `\135` or `\x87`
 
-### Editor Specifics
+## Editor Specifics
 
 The comments here will, hopefully, tell you how to use the fonts in most editors, regardless of whether or not it is listed here.
 
-#### Sublime Text
+### Sublime Text
 
-Here are some useful preferences to set in "Setting - Syntax Specific" for your *.p8 files:
+Here are some useful preferences to set in "Settings - Syntax Specific" for your \*.p8 files:
 ```
 "font_face": "PICO-8 Raize",
 "fallback_encoding": "DOS (CP 437)",
@@ -36,18 +36,20 @@ Here are some useful preferences to set in "Setting - Syntax Specific" for your 
 
 Sublime won't load OEM fonts (which may be just as well since some editors don't display them completely anyway) so use the non-OEM variants, mono or variable-width, your choice.
 
-Sublime has an odd limitation when working with bitmap FON fonts that a few of you may run into.  That is, if you change the text zoom in Windows to, say, 150% (if you're on a high-DPI display and losing your youth vision like me), Sublime will not let you zoom all the way out with many FON fonts.  The furthest I can zoom out in Sublime with my current Windows display settings is 2x the actual bitmap size for all FON files I have here thus far (I believe the Windows settings are part of the cause--not sure yet).  The really bizarre thing is that Sublime will let you zoom all the way out on all but the smallest font in a FON file [if the file has more than one font in it].  Thus, the workaround might be to put a tiny font in all files (such as the 4x6 ROM font) but I don't care to go down that hacky road, so good luck getting Sublime to care enough to fix this.
+> Sublime has an odd limitation when working with bitmap FON fonts that a few of you may run into.  That is, if you change the text zoom in Windows to, say, 150% (if you're on a high-DPI display and losing your youth vision like me), Sublime will not let you zoom all the way out with many FON fonts.  The furthest I can zoom out in Sublime with my current Windows display settings is 2x the actual bitmap size for all FON files I have here thus far (I believe the Windows settings are part of the cause--not sure yet).  The really bizarre thing is that Sublime will let you zoom all the way out on all but the smallest font in a FON file [if the file has more than one font in it].  Thus, the workaround might be to put a tiny font in all files (such as the 4x6 ROM font) but I don't care to go down that hacky road, so good luck getting Sublime to care enough to fix this.
 
 If working with TrueType or OpenType fonts in Windows with Sublime, the secret to turning off antialiasing is to set GDI mode as well:
 ```
 "font_options": [ "gdi", "no_antialias" ]
 ```
 
-#### Notepad++
+Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files.  [See this wiki for details on this](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
+
+### Notepad++
 
 Notepad++ works well with any of these fonts.  If loading and saving as "ANSI" use the OEM variants.  If loading and saving as "OEM-US" use the non-OEM variants.  Sounds a little backwards, eh?  But it makes some sense if you understand how code pages get translated by OSs.
 
-#### Notepad
+### Notepad
 
 You don't want to use Windows' Notepad because it doesn't support the Unix line terminators that PICO-8 uses.  I thought I would mention it, however, because it is one of those programs that will only display correctly with the OEM variants of these fonts.
 
