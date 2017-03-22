@@ -69,6 +69,7 @@ I really didn't want to take the time creating this set -- because I don't see t
   * [**PICO-8 ROM OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-oem.fon)
   * [**PICO-8 ROM Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-mono.fon)
   * [**PICO-8 ROM Mono OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-mono-oem.fon)
+    * In my opinion, you want these over the TTFs because they won't _aa-blur_ on you.
 * TrueType fonts:
   * [PICO-8 forum discussion: PICO-8.ttf + variants](http://www.lexaloffle.com/bbs/?tid=3760)
     * Hopefully, these will be updated soon to the Windows-1252/ISO-8859-1 mapping (so that I don't feel tempted to build my own).  I'm not sure if the OEM mapping (Symbol encoding, really, in TrueType) is possible with the FontStruct tool these were created in.
@@ -115,7 +116,7 @@ This one is a fairly-sane choice for programming.  It comes in many sizes so I c
 ![PICO-8 DejaVu font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/P8DejaVuOEM.png)
 <br>![PICO-8 DejaVu font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/P8DejaVuMonoOEM.png)
 
-DejaVu Sans Mono is a pretty nice programming font.  Maybe not the greatest... but its [open-source-ity-ness](https://dejavu-fonts.github.io/License.html) (new word) made it a good candidate for inclusion in this collection.  (The FontForge source files are also found in this repo.)
+DejaVu Sans Mono is a pretty nice programming font.  Maybe not the greatest... but its [open-source-ity-ness](https://dejavu-fonts.github.io/License.html) (new word) made it a good TTF candidate for inclusion in this collection.  (The FontForge source files are also found in this repo.)
 
 * TrueType fonts:
   * **PICO-8 DejaVu**
