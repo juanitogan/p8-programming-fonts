@@ -115,7 +115,7 @@ This one is a fairly-sane choice for programming.  It comes in many sizes so I c
 ![PICO-8 DejaVu font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/P8DejaVuOEM.png)
 <br>![PICO-8 DejaVu font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/P8DejaVuMonoOEM.png)
 
-DejaVu Sans Mono is a pretty nice programming font.  Maybe not the greatest... but its [open-source-ity-ness](https://dejavu-fonts.github.io/License.html) (new word) made it a good candidate for inclusion in this collection.  (The FontForge source files are also included in this repo.)
+DejaVu Sans Mono is a pretty nice programming font.  Maybe not the greatest... but its [open-source-ity-ness](https://dejavu-fonts.github.io/License.html) (new word) made it a good candidate for inclusion in this collection.  (The FontForge source files are also found in this repo.)
 
 * TrueType fonts:
   * **PICO-8 DejaVu**
