@@ -7,7 +7,7 @@ Herein lies a collection of fonts I've modified for PICO-8 programming.  Why?  I
 
 ### Encoding
 
-It came up elsewhere what the p8 encoding might be.  It is clearly a custom form of Extended ASCII... or, as I think of it, `P8SCII` (first! :grin:).  But that's just my opinion.  Ask the author what he calls it, if anything.  Regardless, it's an 8-bit character set right now and -- judging by where the current extended characters sit (on top of Windows 125x, ISO 8859-x, and Unicode control characters) -- forever.
+It came up elsewhere what the p8 encoding might be.  It is clearly a custom form of Extended ASCII... or, as I think of it, `P8SCII` (first! :grin:).  But that's just my opinion.  Ask the author what he calls it, if anything.  Regardless, it's an 8-bit character set right now and -- judging by where the current extended characters sit (on top of Windows 125x, ISO 8859-x, and Unicode control characters) -- forever.  For more tables of this, [see my P8SCII wiki](https://github.com/juanitogan/p8-programming-fonts/wiki/P8SCII).
 
 ![P8SCII Character Set and P8SCII mapped to Windows 1252](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-charmap.png)
 <br>_P8SCII mapped to Windows 1252 (also the same mapping as ISO 8859-1, etc)._
@@ -43,7 +43,7 @@ If working with TrueType or OpenType fonts in Windows with Sublime, the secret t
 "font_options": [ "gdi", "no_antialias" ]
 ```
 
-Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files to hide the non-code parts of the file.  [See this wiki for details on this](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
+Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files to hide the non-code parts of the file.  [See my wiki for details on this](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
 
 ### Notepad++
 
@@ -80,7 +80,7 @@ I really didn't want to take the time creating this set -- because I don't see t
 ![PICO-8 Tektite font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tektite-oem.png)
 <br>![PICO-8 Tektite font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tektite-mono-oem.png)
 
-This is the first font I worked on... because, well, it was just sitting there, begging to be tweaked, when poking around various tools.  I call this one a semi-sane choice for programming.  It is a very VGA-ish 9x16 (plus I added an extra line of "external leading" because it looks better with more line space, but few editors pay attention to that attribute--_HxD_ being the only one I tested that does--so you may want to tell your editor to space it more).  If you like it, you can get the matching set of non-P8 versions (that I also modified a bit from the original Tektite font) by visiting their home here: https://github.com/juanitogan/mkwinfont (also direct-linked below).
+This is the first font I worked on... because, well, it was just sitting there, begging to be tweaked, and it seems to have a bit of a cult-like fan base because it is different, yet, readable.  I call this one a semi-sane choice for programming.  It is a very VGA-ish 9x16 (plus I added an extra line of "external leading" because it looks better with more line space, but few editors pay attention to that attribute--_HxD_ being the only one I tested that does--so you may want to tell your editor to space it more).  If you like it, you can get the matching set of non-P8 versions (that I also modified a bit from the original Tektite font) by visiting their home here: https://github.com/juanitogan/mkwinfont (also direct-linked below).
 * Windows FON fonts:
   * [**PICO-8 Tektite**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite.fon)
   * [**PICO-8 Tektite OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-oem.fon)
