@@ -61,6 +61,15 @@ Thus far, only one TrueType font (DejaVu) and a few Windows FON bitmap fonts are
 
 Creating patch files for various vector fonts is also a possibility (such as for Consolas, what I currently use) but I have no plans to engage in such things at the moment because licensing would likely require that I patch them instead of mod them (which would then require maintaining patches for all the various versions scattered across the world).
 
+#### Naming Legend
+
+| Suffix   | Spacing | Encoding | Who |
+| -------- | ------- | -------- | --- |
+| (none)   | Double-wide extended chars | Win&nbsp;1252, ISO&nbsp;8859-1, etc | What most of you probably want |
+| **OEM**  | Double-wide extended chars | OEM, Symbol | What most of the rest of you want |
+| **Mono** | Fully monospaced | Win&nbsp;1252, ISO&nbsp;8859-1, etc | The few, the unproud, the regular |
+| **Mono&nbsp;OEM** | Fully monospaced | OEM, Symbol | Old-schoolers |
+
 ### PICO-8 ROM
 ![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-oem.png)
 <br>![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-mono-oem.png)
