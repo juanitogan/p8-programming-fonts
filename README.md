@@ -1,6 +1,6 @@
 # PICO-8 Programming Fonts
 
-Herein lies a collection of fonts I've modified for PICO-8 programming.  Why?  I can't say, really, other than it was a small curiosity I was tempted to solve.  I can't say I use them... but for those who want them, here they are.
+Herein lies a collection of fonts I've modified for PICO-8 programming.  Why?  I can't say, really, other than it was a small curiosity I was tempted to solve.
 
 ![Screenshot of Sublime Text, Notepad++, and PICO-8](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/screenshot-st3-npp-p8.png)
 <br>_Screenshot of Sublime Text, Notepad++, and PICO-8, all displaying the same p8 file._
@@ -74,7 +74,7 @@ Creating patch files for various vector fonts is also a possibility (such as for
 ![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-oem.png)
 <br>![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-mono-oem.png)
 
-I really didn't want to take the time creating this set -- because I don't see the point in punishing yourself with it -- I did enough of that with bad fonts ***and*** displays way back somewhere in the last century.  But I knew I would be pestered for these if I didn't create them, so here they are in all their "dune" glory (you might be able to figure out what that means if you find this 4x6 font to be worse than all other 4x6 fonts like I do).  I even created these as multi-font FON files (same font in multiple bitmap resolutions) so that your editor should let you zoom in pretty big before Windows decides you're totally insane and replaces it with a default vector font.
+I really didn't want to take the time creating this set -- because I don't see the point in punishing yourself with it -- I did enough of that with bad fonts ***and*** displays way back somewhere in the last century.  Isn't the primary point of third-party code editors to bring consistency to all your languages, and not diversity?  But I knew I would be pestered for these anyway if I didn't create them, so here they are in all their "dune" glory (you might be able to figure out what that means if you find this 4x6 font to be worse than all other 4x6 fonts like I do).  I even created these as multi-font FON files (same font in multiple bitmap resolutions) so that your editor should let you zoom in pretty big before Windows decides you're totally insane and replaces it with a default vector font.
 * Windows FON fonts:
   * [**PICO-8 ROM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom.fon)
   * [**PICO-8 ROM OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-oem.fon)
