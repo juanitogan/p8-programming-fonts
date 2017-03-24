@@ -43,7 +43,9 @@ If working with TrueType or OpenType fonts in Windows with Sublime, the secret t
 "font_options": [ "gdi", "no_antialias" ]
 ```
 
-Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files to hide the non-code parts of the file.  [See my wiki for details on this](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
+Another useful feature to enable is to install the Auto Fold package and modify it for \*.p8 files to hide the non-code parts of the file.  See: [Using Sublime Text and Auto Fold with PICO-8 files](https://github.com/juanitogan/p8-programming-fonts/wiki/Using-Sublime-Text-and-Auto-Fold-with-PICO-8-files).
+
+Also, see: [PICO-8 syntax highlighting in Sublime Text](https://github.com/juanitogan/p8-programming-fonts/wiki/PICO-8-syntax-highlighting-in-Sublime-Text).
 
 ### Notepad++
 
