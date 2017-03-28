@@ -31,6 +31,7 @@ Here are some useful preferences to set in "Settings - Syntax Specific" for your
 "font_face": "PICO-8 Raize",
 "fallback_encoding": "DOS (CP 437)",
 "default_encoding": "DOS (CP 437)",
+"show_encoding": true,
 "rulers": [32]
 ```
 
@@ -61,7 +62,7 @@ You don't want to use Windows' Notepad because it doesn't support the Unix line 
 
 Thus far, only one TrueType font (DejaVu) and a few Windows FON bitmap fonts are available here.  I could convert the bitmap fonts to Unix/Linux types but I am not set up for testing those conversions so I'll wait for others to do that work, if anyone chooses to, and include them via pull request.  But is that really needed anymore considering [FreeType](https://en.wikipedia.org/wiki/FreeType) (for Linux, etc.) now supports FON as well?
 
-Creating patch files for various vector fonts is also a possibility (such as for Consolas, what I currently use) but I have no plans to engage in such things at the moment because licensing would likely require that I patch them instead of mod them (which would then require maintaining patches for all the various versions scattered across the world).
+Creating patch files for various vector fonts is also a possibility (such as for Consolas, what I currently use) but I have no plans to engage in such things at the moment because licensing would likely require that I patch them instead of mod them (which would then require maintaining patches for all the various versions scattered across the world).  If you doing the mod yourself, this post of mine may be of some help: [How To Make a Snap-to Grid In FontForge](https://namethattech.wordpress.com/2017/03/22/how-to-make-a-snap-to-grid-in-fontforge/).
 
 #### Naming Legend
 
