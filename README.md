@@ -10,7 +10,7 @@ Herein lies a collection of fonts I've modified for PICO-8 programming.  Why?  I
 It came up elsewhere what the p8 encoding might be.  It is clearly a custom form of Extended ASCII... or, as I think of it, `P8SCII` (first! :grin:).  But that's just my opinion.  Ask the author what he calls it, if anything.  Regardless, it's an 8-bit character set right now and -- judging by where the current extended characters sit (on top of Windows 125x, ISO 8859-x, and Unicode control characters) -- forever.  For more tables of this, [see my P8SCII wiki](https://github.com/juanitogan/p8-programming-fonts/wiki/P8SCII).
 
 ![P8SCII Character Set and P8SCII mapped to Windows 1252](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-charmap.png)
-<br>_P8SCII mapped to Windows 1252 (also the same mapping as ISO 8859-1, etc)._
+<br>_P8SCII mapped to Windows 1252 (also the same mapping for ISO 8859-1, etc)._
 
 If working on P8 code in an external editor, open and save with a DOS encoding if you can, such as Code Page 437.  This works well in Sublime Text (as "DOS (CP 437)") and in Notepad++ (as either "ANSI" or "Western European -> OEM-US") and probably most others.
 
