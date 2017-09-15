@@ -98,7 +98,7 @@ This is the first font I worked on... because, well, it was just sitting there, 
   * [**PICO-8 Tektite OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-oem.fon)
   * [**PICO-8 Tektite Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-mono.fon)
   * [**PICO-8 Tektite Mono OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-mono-oem.fon)
-  * Matching fonts:
+  * Matching fonts (which may also be good for roguelike games):
     * [**Tektite**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9.fon) (Windows 1252, ISO-8859-1, "Font has XWindows encoding" option in PuTTY)
     * [**Tektite OEM**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9oem.fon) (CP 437, OEM-US, PC-8)
 
@@ -106,7 +106,7 @@ This is the first font I worked on... because, well, it was just sitting there, 
 ![PICO-8 MSTester font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tester-oem.png)
 <br>![PICO-8 MSTester font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tester-mono-oem.png)
 
-This one is a formerly-sane choice for programming.  It is a squished VGA-ish of 8x12.  This is a sample font that was included with some Microsoft sample code for building a FNT editor, ages ago.  Thus, it sounds like public domain to me even though it looks suspiciuosly like an old version of **Fixedsys**.  I did descend the brackets a bit -- the curly brackets were hardly recognizable.  Otherwise unchanged in the 7-bit region.
+This one is a formerly-sane choice for programming.  It is a squished VGA-ish of 8x12.  This is a sample font that was included with some Microsoft sample code for building a FNT editor, ages ago.  Thus, it sounds like public domain to me even though it looks suspiciuosly like an old version of **Fixedsys**.  I did descend the brackets a bit -- the curly brackets were hardly recognizable.  Otherwise, unchanged in the 7-bit region.
 * Windows FON fonts:
   * [**PICO-8 MSTester**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester.fon)
   * [**PICO-8 MSTester OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester-oem.fon)
