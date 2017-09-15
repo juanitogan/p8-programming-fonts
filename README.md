@@ -130,7 +130,7 @@ This one is a fairly-sane choice for programming.  It comes in many sizes so I c
 ![PICO-8 DejaVu font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/P8DejaVuOEM.png)
 <br>![PICO-8 DejaVu font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/P8DejaVuMonoOEM.png)
 
-DejaVu Sans Mono is a really nice programming font.  Maybe not the greatest... but its [open-source-ity-ness](https://dejavu-fonts.github.io/License.html) (new word) made it a good TTF candidate for inclusion in this collection.  (The FontForge source files are also found in this repo.)
+DejaVu Sans Mono is a really nice programming font.  Maybe not the greatest... but its [open-source-ity-ness](https://dejavu-fonts.github.io/License.html) (new word) made it a good TTF candidate for inclusion in this collection.  (The FontForge source files are also found in this repo.)  If you want to modify your own TTF files like this, my blog post that resulted from this work may help: [How To Make a Snap-to Grid In FontForge](https://namethattech.wordpress.com/2017/03/22/how-to-make-a-snap-to-grid-in-fontforge/).
 
 * TrueType fonts:
   * **PICO-8 DejaVu**
