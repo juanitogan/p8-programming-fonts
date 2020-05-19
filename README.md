@@ -12,7 +12,7 @@ It came up elsewhere what the p8 encoding might be.  It is clearly a custom form
 ![P8SCII Character Set and P8SCII mapped to Windows 1252](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-charmap.png)
 <br>_P8SCII mapped to Windows 1252 (also the same mapping for ISO 8859-1, etc)._
 
-If working on P8 code in an external editor, open and save with a DOS encoding if you can, such as Code Page 437.  This works well in Sublime Text (as "DOS (CP 437)") and in Notepad++ (as either "ANSI" or "Western European -> OEM-US") and probably most others.
+:mega: If working on P8 code in an external editor, open and save with a DOS encoding if you can, such as Code Page 437.  This works well in Sublime Text (as "DOS (CP 437)") and in Notepad++ (as either "ANSI" or "Western European -> OEM-US") and probably most others.
 
 Saving as Windows 1252 can _appear_ to preserve the embedded extended characters when using these fonts... but don't be fooled, you may find differently when you reload the file in PICO-8.  To fix, reload in your editor as Windows 1252 and save as CP 437.  ISO 8859-1 won't work unless you get really lucky with your editor ("No, your _text_ editor!").  Feeling lucky?  Saving as UTF-8 will destroy the encoding, for sure, with multibyte replacements.
 
@@ -52,11 +52,13 @@ Also, see: [PICO-8 syntax highlighting in Sublime Text](https://github.com/juani
 
 Notepad++ works well with any of these fonts.  If loading and saving as "ANSI" use the OEM variants.  If loading and saving as "OEM-US" use the non-OEM variants.  Sounds a little backwards, eh?  But it makes some sense if you understand how code pages get translated by OSs.
 
-Note: If using TrueType fonts that contain the double-wide extended characters, Notepad++ doesn't always get the spacing right at some sizes between the single- and double-wide characters because, for some wacky reason, Notepad++ sets its own character spacing.
+Note: If using TrueType fonts that contain the double-wide extended characters, Notepad++ doesn't always get the spacing right, at some sizes, for the gap between the single- and double-wide characters. For some wacky reason, Notepad++ sets its own character spacing.
 
 ### Notepad
 
 You don't want to use Windows' Notepad because it doesn't support the Unix line terminators that PICO-8 uses.  I thought I would mention it, however, because it is one of those programs that will only display correctly with the OEM variants of these fonts.
+
+UPDATE: Notepad added support or Unix files in 2019 so, um, go ahead and knock yourself out with a notepad if you like.
 
 # The Fonts
 
@@ -77,7 +79,7 @@ Creating patch files for various vector fonts is also a possibility (such as for
 ![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-oem.png)
 <br>![PICO-8 ROM font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-rom-mono-oem.png)
 
-I really didn't want to take the time creating this set -- because I don't see the point in punishing yourself with it -- I did enough of that with bad fonts ***and*** displays way back somewhere in the last century.  Isn't the primary point of third-party code editors to bring consistency to all your languages, and not diversity?  But I knew I would be pestered for these anyway if I didn't create them, so here they are in all their "dune" glory (you might be able to figure out what that means if you find this 4x6 font to be worse than all other 4x6 fonts like I do).  I even created these as multi-font FON files (same font in multiple bitmap resolutions) so that your editor should let you zoom in pretty big before Windows decides you're totally insane and replaces it with a default vector font.
+I really didn't want to take the time to create this set -- because I don't see the point in punishing yourself with it -- I did enough of that with bad fonts ***and*** displays way back somewhere in the last century.  Isn't the primary point of third-party code editors to bring consistency to all your languages... and not diversity?  But, I knew I would be pestered for these anyway if I didn't create them, so here they are in all their "dune" glory (you might be able to figure out what that means if you find this 4x6 font to be worse than all other 4x6 fonts like I do).  I even created these as multi-font FON files (same font in multiple bitmap resolutions) so that your editor should let you zoom in pretty big before Windows decides you're totally insane and replaces it with a default vector font.
 * Windows FON fonts:
   * [**PICO-8 ROM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom.fon)
   * [**PICO-8 ROM OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-rom-oem.fon)
@@ -92,21 +94,23 @@ I really didn't want to take the time creating this set -- because I don't see t
 ![PICO-8 Tektite font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tektite-oem.png)
 <br>![PICO-8 Tektite font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tektite-mono-oem.png)
 
-This is the first font I worked on... because, well, it was just sitting there, begging to be tweaked, and it seems to have a bit of a fan base for some reason.  I call this one a semi-sane choice for programming.  It is a very VGA-ish 9x16 (plus I added an extra line of "external leading" because it looks better with more line space, but few editors pay attention to that attribute--_HxD_ being the only one I tested that does--so you may want to tell your editor to space it more).  If you like it, you can get the matching set of non-P8 versions (that I also modified a bit from the original Tektite font) by visiting their home here: https://github.com/juanitogan/mkwinfont (also direct-linked below).
+This is the first font I worked on... because, well, it was just sitting there, begging to be tweaked, and it seems to have a bit of a fan base for some reason.  I call this one a semi-sane choice for programming.  It is a very VGA-ish 9x16.  Plus, I added an extra line of "external leading" because it looks better with more line spacing.  But, few editors pay attention to that attribute (_HxD_ being the only one I tested that does) so you may want to tell your editor to vertically space it more.  If you like Tektite, you can get the matching set of non-P8 versions (that I also modified a bit from the original Tektite font).
 * Windows FON fonts:
   * [**PICO-8 Tektite**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite.fon)
   * [**PICO-8 Tektite OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-oem.fon)
   * [**PICO-8 Tektite Mono**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-mono.fon)
   * [**PICO-8 Tektite Mono OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tektite-mono-oem.fon)
-  * Matching fonts (which may also be good for roguelike games):
+  * Matching fonts (which may also be good for roguelike games) hosted in my [mkwinfont](https://github.com/juanitogan/mkwinfont) project:
     * [**Tektite**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9.fon) (Windows 1252, ISO-8859-1, "Font has XWindows encoding" option in PuTTY)
+      * <img src="https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/tektite_simon_matt.gif" alt="GIF showing Simon's mod versus my own" title="GIF showing Simon's mod versus my own" width="296" height="156">
     * [**Tektite OEM**](https://github.com/juanitogan/mkwinfont/raw/master/fonts/tektite16x9oem.fon) (CP 437, OEM-US, PC-8)
+      * <img src="https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/tektite_oem_orig_matt.gif" alt="GIF showing original versus my mod" title="GIF showing original versus my mod" width="296" height="156">
 
 ### PICO-8 MSTester
 ![PICO-8 MSTester font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tester-oem.png)
 <br>![PICO-8 MSTester font preview](https://github.com/juanitogan/p8-programming-fonts/blob/master/github-images/p8-tester-mono-oem.png)
 
-This one is a formerly-sane choice for programming.  It is a squished VGA-ish of 8x12.  This is a sample font that was included with some Microsoft sample code for building a FNT editor, ages ago.  Thus, it sounds like public domain to me even though it looks suspiciuosly like an old version of **Fixedsys**.  I did descend the brackets a bit -- the curly brackets were hardly recognizable.  Otherwise, unchanged in the 7-bit region.
+This one is a formerly-sane choice for programming.  It is a squished VGA-ish of 8x12.  This is a sample font that was included with some Microsoft sample code for building a FNT editor, ages ago.  Thus, it sounds like public domain to me even though it looks suspiciously like an old version of **Fixedsys**.  I did descend the brackets a bit -- the curly brackets were hardly recognizable.  Otherwise, unchanged in the 7-bit region.
 * Windows FON fonts:
   * [**PICO-8 MSTester**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester.fon)
   * [**PICO-8 MSTester OEM**](https://github.com/juanitogan/p8-programming-fonts/raw/master/bitmap-fonts/p8-tester-oem.fon)
